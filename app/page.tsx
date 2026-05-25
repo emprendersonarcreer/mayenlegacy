@@ -1,20 +1,12 @@
 import Image from "next/image";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#FAF7F2]">
 
       {/* NAVEGACIÓN */}
-      <nav className="fixed top-0 w-full z-50 bg-[#FAF7F2]/90 backdrop-blur-sm border-b border-[#EADCC6]">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <span className="font-serif text-xl text-[#4A90E2] tracking-widest">NASHELI MAYÉN</span>
-          <div className="flex gap-8 text-sm text-[#4A90E2] tracking-wider">
-            <a href="#sobre-mi" className="hover:text-[#D4AF37] transition-colors">SOBRE MÍ</a>
-            <a href="#proyectos" className="hover:text-[#D4AF37] transition-colors">PROYECTOS</a>
-            <a href="#contacto" className="hover:text-[#D4AF37] transition-colors">CONTACTO</a>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* HERO */}
       <section className="min-h-screen flex items-center pt-20">
