@@ -1,12 +1,225 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#FAF7F2] flex flex-col items-center justify-center">
-      <h1 className="font-serif text-5xl text-[#4A90E2] mb-4">
-        ESSENTIA
-      </h1>
-      <p className="text-[#4A90E2] text-xl tracking-widest">
-        ESPÍRITU · ALMA · CUERPO
-      </p>
+    <main className="min-h-screen bg-[#FAF7F2]">
+
+      {/* NAVEGACIÓN */}
+      <nav className="fixed top-0 w-full z-50 bg-[#FAF7F2]/90 backdrop-blur-sm border-b border-[#EADCC6]">
+        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+          <span className="font-serif text-xl text-[#4A90E2] tracking-widest">NASHELI MAYÉN</span>
+          <div className="flex gap-8 text-sm text-[#4A90E2] tracking-wider">
+            <a href="#sobre-mi" className="hover:text-[#D4AF37] transition-colors">SOBRE MÍ</a>
+            <a href="#proyectos" className="hover:text-[#D4AF37] transition-colors">PROYECTOS</a>
+            <a href="#contacto" className="hover:text-[#D4AF37] transition-colors">CONTACTO</a>
+          </div>
+        </div>
+      </nav>
+
+      {/* HERO */}
+      <section className="min-h-screen flex items-center pt-20">
+        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+          {/* TEXTO */}
+          <div className="flex flex-col gap-6">
+            <p className="text-[#D4AF37] tracking-[0.3em] text-sm">ESPÍRITU · ALMA · CUERPO</p>
+            <h1 className="font-serif text-5xl md:text-6xl text-[#2C4A7C] leading-tight">
+              Nasheli<br />Mayén
+            </h1>
+            <p className="text-[#4A90E2] text-lg tracking-wide">
+              Conferencista · Autora · Fundadora
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed max-w-md">
+              Acompañando a mujeres a vivir desde su esencia,
+              con propósito, fe y bienestar integral.
+            </p>
+            <div className="flex gap-4 mt-4">
+              <a href="#proyectos"
+                className="bg-[#4A90E2] text-white px-8 py-3 tracking-wider text-sm hover:bg-[#2C4A7C] transition-colors">
+                CONOCE MIS PROYECTOS
+              </a>
+              <a href="#contacto"
+                className="border border-[#4A90E2] text-[#4A90E2] px-8 py-3 tracking-wider text-sm hover:bg-[#E6F1FA] transition-colors">
+                CONTACTO
+              </a>
+            </div>
+          </div>
+
+          {/* FOTO */}
+          <div className="relative flex justify-center">
+            <div className="relative w-[380px] h-[520px]">
+              <Image
+                src="/nasheli-azul2.png"
+                alt="Nasheli Mayén"
+                fill
+                className="object-cover object-center"
+                priority
+              />
+            </div>
+            {/* Detalle decorativo */}
+            <div className="absolute -bottom-4 -left-4 w-32 h-32 border-2 border-[#D4AF37] -z-10" />
+          </div>
+
+        </div>
+      </section>
+
+      {/* SOBRE MÍ */}
+      <section id="sobre-mi" className="py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+
+          {/* FOTO */}
+          <div className="relative flex justify-center order-2 md:order-1">
+            <div className="relative w-[380px] h-[500px]">
+              <Image
+                src="/nasheli-azul.png"
+                alt="Nasheli Mayén"
+                fill
+                className="object-cover object-top"
+              />
+            </div>
+            <div className="absolute -top-4 -right-4 w-32 h-32 border-2 border-[#D4AF37] -z-10" />
+          </div>
+
+          {/* TEXTO */}
+          <div className="flex flex-col gap-6 order-1 md:order-2">
+            <p className="text-[#D4AF37] tracking-[0.3em] text-sm">SOBRE MÍ</p>
+            <h2 className="font-serif text-4xl text-[#2C4A7C] leading-tight">
+              Mi propósito fue<br />activado antes de nacer
+            </h2>
+            <div className="w-12 h-[2px] bg-[#D4AF37]" />
+            <p className="text-gray-600 leading-relaxed">
+              Durante el tiempo de mi gestación, mis padres, jóvenes y confundidos, ya estaban en una clínica tomando una decisión sobre el embarazo de mi mamá, cuando{" "}
+              <span className="italic text-[#2C4A7C] font-medium">algo más grande que ellos les dio paz de tener a su tercer hija.</span>
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Ese instante cambió mi destino. Lo llamo mi primera batalla espiritual — entre la lógica humana y el diseño divino. Soy evidencia viva de que el propósito se activa antes de nacer. Hoy acompaño a mujeres a descubrir que todo comienza dentro de cada una — en la restauración del espíritu, la sanidad del alma y el cuidado intencional del cuerpo.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Creo profundamente que la verdadera transformación ocurre cuando una mujer vuelve a alinearse con{" "}
+              <span className="text-[#2C4A7C] font-medium">el diseño divino para el que fue creada.</span>{" "}
+              Esa convicción se convirtió en el corazón de mi propósito.
+            </p>
+
+            {/* PILARES */}
+            <div className="grid grid-cols-3 gap-4 mt-2 pt-6 border-t border-[#EADCC6]">
+              <div className="flex flex-col gap-1">
+                <p className="font-serif text-3xl text-[#D4AF37]">+20</p>
+                <p className="text-xs text-gray-400 tracking-wider leading-tight">AÑOS DE<br />MINISTERIO</p>
+              </div>
+              <div className="flex flex-col gap-1">
+                <p className="font-serif text-3xl text-[#D4AF37]">3</p>
+                <p className="text-xs text-gray-400 tracking-wider leading-tight">CONFERENCISTA<br />AUTORA · FUNDADORA</p>
+              </div>
+              <div className="flex flex-col gap-1">
+                <p className="font-serif text-3xl text-[#4A90E2]">∞</p>
+                <p className="text-xs text-gray-400 tracking-wider leading-tight">VIDAS<br />IMPACTADAS</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* SECCIÓN PROYECTOS */}
+      <section id="proyectos" className="py-24 bg-[#E6F1FA]">
+        <div className="max-w-6xl mx-auto px-6">
+          <p className="text-[#D4AF37] tracking-[0.3em] text-sm text-center mb-3">MIS PROYECTOS</p>
+          <h2 className="font-serif text-4xl text-[#2C4A7C] text-center mb-16">
+            Un ecosistema de transformación
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            {/* ESSENTIA */}
+            <div className="bg-[#FAF7F2] p-10 flex flex-col gap-4 border-t-4 border-[#D4AF37]">
+              <p className="text-[#D4AF37] tracking-[0.3em] text-xs">ESPÍRITU · ALMA · CUERPO</p>
+              <h3 className="font-serif text-3xl text-[#2C4A7C]">ESSENTIA</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Guía práctica para ordenar tu espíritu, alma y cuerpo.
+                Un camino de transformación interior en Orden Divino.
+              </p>
+              <span className="inline-block bg-[#EADCC6] text-[#2C4A7C] text-xs tracking-widest px-4 py-2 w-fit">
+                PRÓXIMAMENTE
+              </span>
+            </div>
+
+            {/* ALKALINATION */}
+            <div className="bg-[#FAF7F2] p-10 flex flex-col gap-4 border-t-4 border-[#4A90E2]">
+              <p className="text-[#4A90E2] tracking-[0.3em] text-xs">AGUA SANA · VIDA SANA</p>
+              <h3 className="font-serif text-3xl text-[#2C4A7C]">AlkaliNation USA</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Soluciones avanzadas de agua para proteger tu hogar,
+                apoyar tu salud y elevar tu vida diaria.
+              </p>
+              <a href="/alkalination"
+                className="inline-block bg-[#4A90E2] text-white text-xs tracking-widest px-6 py-2 w-fit hover:bg-[#2C4A7C] transition-colors">
+                CONOCER MÁS
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* FRASE */}
+      <section className="py-20 bg-[#2C4A7C]">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <p className="font-serif text-2xl md:text-3xl text-white leading-relaxed italic">
+            "La transformación verdadera comienza dentro."
+          </p>
+          <div className="w-16 h-[1px] bg-[#D4AF37] mx-auto mt-8" />
+        </div>
+      </section>
+
+      {/* CONTACTO */}
+      <section id="contacto" className="py-24 bg-[#FAF7F2]">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <p className="text-[#D4AF37] tracking-[0.3em] text-sm mb-3">CONTACTO</p>
+          <h2 className="font-serif text-4xl text-[#2C4A7C] mb-6">
+            Hablemos
+          </h2>
+          <div className="w-12 h-[2px] bg-[#D4AF37] mx-auto mb-8" />
+          <p className="text-gray-600 text-lg leading-relaxed mb-12">
+            ¿Sientes que es momento de comenzar tu camino de transformación?<br />
+            Estoy aquí para acompañarte.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            {/* WHATSAPP */}
+            <a
+              href="https://wa.me/15622860707"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-4 tracking-wider text-sm hover:bg-[#1da851] transition-colors"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+              </svg>
+              ESCRÍBEME POR WHATSAPP
+            </a>
+
+            {/* EMAIL */}
+            <a
+              href="mailto:emprender.sonar.creer@gmail.com"
+              className="flex items-center justify-center gap-3 border border-[#4A90E2] text-[#4A90E2] px-8 py-4 tracking-wider text-sm hover:bg-[#E6F1FA] transition-colors"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+              </svg>
+              ENVÍAME UN CORREO
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="py-10 bg-[#FAF7F2] border-t border-[#EADCC6]">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <p className="font-serif text-[#4A90E2] tracking-widest mb-2">NASHELI MAYÉN</p>
+          <p className="text-gray-400 text-sm tracking-wider">ESPÍRITU · ALMA · CUERPO</p>
+          <p className="text-gray-400 text-xs mt-4">© 2025 Mayen Legacy. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+
     </main>
   );
 }
