@@ -114,7 +114,7 @@ export default function TestimonialsSection() {
   const [selected, setSelected] = useState<Testimonial | null>(null);
 
   return (
-    <section className="py-24 bg-white">
+    <section id="testimonios" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <p className="text-[#9A7B0A] tracking-[0.3em] text-sm text-center mb-3">VOCES QUE ME CONOCEN</p>
         <h2 className="font-serif text-4xl text-[#2C4A7C] text-center mb-4">
