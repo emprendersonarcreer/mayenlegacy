@@ -12,9 +12,9 @@ export default function Navbar() {
 
         {/* Links en escritorio */}
         <div className="hidden md:flex gap-8 text-sm text-[#4A90E2] tracking-wider">
-          <a href="#sobre-mi" className="hover:text-[#D4AF37] transition-colors">SOBRE MÍ</a>
-          <a href="#proyectos" className="hover:text-[#D4AF37] transition-colors">PROYECTOS</a>
-          <a href="#contacto" className="hover:text-[#D4AF37] transition-colors">CONTACTO</a>
+          <a href="/#sobre-mi" className="hover:text-[#D4AF37] transition-colors">SOBRE MÍ</a>
+          <a href="/#proyectos" className="hover:text-[#D4AF37] transition-colors">PROYECTOS</a>
+          <a href="/#contacto" className="hover:text-[#D4AF37] transition-colors">CONTACTO</a>
         </div>
 
         {/* Botón hamburguesa en móvil */}
@@ -38,9 +38,9 @@ export default function Navbar() {
       {/* Menú desplegable en móvil */}
       {isOpen && (
         <div className="md:hidden bg-[#FAF7F2] border-t border-[#EADCC6] px-6 py-4 flex flex-col gap-4 text-sm text-[#4A90E2] tracking-wider">
-          <a href="#sobre-mi" className="hover:text-[#D4AF37] transition-colors py-2" onClick={() => setIsOpen(false)}>SOBRE MÍ</a>
-          <a href="#proyectos" className="hover:text-[#D4AF37] transition-colors py-2" onClick={() => setIsOpen(false)}>PROYECTOS</a>
-          <a href="#contacto" className="hover:text-[#D4AF37] transition-colors py-2" onClick={() => setIsOpen(false)}>CONTACTO</a>
+          <a href="/#sobre-mi" className="hover:text-[#D4AF37] transition-colors py-2" onClick={() => setIsOpen(false)}>SOBRE MÍ</a>
+          <a href="/#proyectos" className="hover:text-[#D4AF37] transition-colors py-2" onClick={() => setIsOpen(false)}>PROYECTOS</a>
+          <a href="/#contacto" className="hover:text-[#D4AF37] transition-colors py-2" onClick={() => setIsOpen(false)}>CONTACTO</a>
         </div>
       )}
     </nav>
