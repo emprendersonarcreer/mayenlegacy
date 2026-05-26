@@ -14,7 +14,7 @@ export default function Home() {
 
           {/* TEXTO */}
           <div className="flex flex-col gap-6">
-            <p className="text-[#D4AF37] tracking-[0.3em] text-sm">ESPÍRITU · ALMA · CUERPO</p>
+            <p className="text-[#9A7B0A] tracking-[0.3em] text-sm">ESPÍRITU · ALMA · CUERPO</p>
             <h1 className="font-serif text-5xl md:text-6xl text-[#2C4A7C] leading-tight">
               Nasheli<br />Mayén
             </h1>
@@ -49,7 +49,7 @@ export default function Home() {
               />
             </div>
             {/* Detalle decorativo */}
-            <div className="absolute -bottom-4 -left-4 w-32 h-32 border-2 border-[#D4AF37] -z-10" />
+            <div className="absolute -bottom-4 -left-4 w-32 h-32 border-2 border-[#9A7B0A] -z-10" />
           </div>
 
         </div>
@@ -69,16 +69,16 @@ export default function Home() {
                 className="object-cover object-top"
               />
             </div>
-            <div className="absolute -top-4 -right-4 w-32 h-32 border-2 border-[#D4AF37] -z-10" />
+            <div className="absolute -top-4 -right-4 w-32 h-32 border-2 border-[#9A7B0A] -z-10" />
           </div>
 
           {/* TEXTO */}
           <div className="flex flex-col gap-6 order-1 md:order-2">
-            <p className="text-[#D4AF37] tracking-[0.3em] text-sm">SOBRE MÍ</p>
+            <p className="text-[#9A7B0A] tracking-[0.3em] text-sm">SOBRE MÍ</p>
             <h2 className="font-serif text-4xl text-[#2C4A7C] leading-tight">
               Mi propósito fue<br />activado antes de nacer
             </h2>
-            <div className="w-12 h-[2px] bg-[#D4AF37]" />
+            <div className="w-12 h-[2px] bg-[#9A7B0A]" />
             <p className="text-gray-600 leading-relaxed">
               Durante el tiempo de mi gestación, mis padres, jóvenes y confundidos, ya estaban en una clínica tomando una decisión sobre el embarazo de mi mamá, cuando{" "}
               <span className="italic text-[#2C4A7C] font-medium">algo más grande que ellos les dio paz de tener a su tercer hija.</span>
@@ -95,11 +95,11 @@ export default function Home() {
             {/* PILARES */}
             <div className="grid grid-cols-3 gap-4 mt-2 pt-6 border-t border-[#EADCC6]">
               <div className="flex flex-col gap-1">
-                <p className="font-serif text-3xl text-[#D4AF37]">+20</p>
+                <p className="font-serif text-3xl text-[#9A7B0A]">+20</p>
                 <p className="text-xs text-gray-400 tracking-wider leading-tight">AÑOS DE<br />MINISTERIO</p>
               </div>
               <div className="flex flex-col gap-1">
-                <p className="font-serif text-3xl text-[#D4AF37]">3</p>
+                <p className="font-serif text-3xl text-[#9A7B0A]">3</p>
                 <p className="text-xs text-gray-400 tracking-wider leading-tight">CONFERENCISTA<br />AUTORA · FUNDADORA</p>
               </div>
               <div className="flex flex-col gap-1">
@@ -115,22 +115,22 @@ export default function Home() {
       {/* SECCIÓN PROYECTOS */}
       <section id="proyectos" className="py-24 bg-[#E6F1FA]">
         <div className="max-w-6xl mx-auto px-6">
-          <p className="text-[#D4AF37] tracking-[0.3em] text-sm text-center mb-3">MIS PROYECTOS</p>
+          <p className="text-[#9A7B0A] tracking-[0.3em] text-sm text-center mb-3">MIS PROYECTOS</p>
           <h2 className="font-serif text-4xl text-[#2C4A7C] text-center mb-16">
             Un ecosistema de transformación
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
             {/* ESSENTIA */}
-            <div className="bg-[#FAF7F2] p-10 flex flex-col gap-4 border-t-4 border-[#D4AF37]">
-              <p className="text-[#D4AF37] tracking-[0.3em] text-xs">ESPÍRITU · ALMA · CUERPO</p>
+            <div className="bg-[#FAF7F2] p-10 flex flex-col gap-4 border-t-4 border-[#9A7B0A]">
+              <p className="text-[#9A7B0A] tracking-[0.3em] text-xs">ESPÍRITU · ALMA · CUERPO</p>
               <h3 className="font-serif text-3xl text-[#2C4A7C]">ESSENTIA</h3>
               <p className="text-gray-600 leading-relaxed">
                 Guía práctica para ordenar tu espíritu, alma y cuerpo.
                 Un camino de transformación interior en Orden Divino.
               </p>
               <a href="/essentia"
-                className="inline-block bg-[#D4AF37] text-white text-xs tracking-widest px-6 py-2 w-fit hover:bg-[#b8962e] transition-colors">
+                className="inline-block bg-[#9A7B0A] text-white text-xs tracking-widest px-6 py-2 w-fit hover:bg-[#b8962e] transition-colors">
                 CONOCER MÁS
               </a>
             </div>
@@ -159,18 +159,18 @@ export default function Home() {
           <p className="font-serif text-2xl md:text-3xl text-white leading-relaxed italic">
             "La transformación verdadera comienza dentro."
           </p>
-          <div className="w-16 h-[1px] bg-[#D4AF37] mx-auto mt-8" />
+          <div className="w-16 h-[1px] bg-[#9A7B0A] mx-auto mt-8" />
         </div>
       </section>
 
       {/* CONTACTO */}
       <section id="contacto" className="py-24 bg-[#FAF7F2]">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-[#D4AF37] tracking-[0.3em] text-sm mb-3">CONTACTO</p>
+          <p className="text-[#9A7B0A] tracking-[0.3em] text-sm mb-3">CONTACTO</p>
           <h2 className="font-serif text-4xl text-[#2C4A7C] mb-6">
             Hablemos
           </h2>
-          <div className="w-12 h-[2px] bg-[#D4AF37] mx-auto mb-8" />
+          <div className="w-12 h-[2px] bg-[#9A7B0A] mx-auto mb-8" />
           <p className="text-gray-600 text-lg leading-relaxed mb-12">
             ¿Sientes que es momento de comenzar tu camino de transformación?<br />
             Estoy aquí para acompañarte.
@@ -214,7 +214,7 @@ export default function Home() {
               href="https://www.instagram.com/nasheli_mayen_essentia"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-[#D4AF37] transition-colors"
+              className="text-gray-400 hover:text-[#9A7B0A] transition-colors"
               aria-label="Instagram"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
