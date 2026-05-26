@@ -194,6 +194,7 @@
     },
     "footer": {
       "back": "← BACK TO HOME",
+      "blog": "✦ ESSENTIA BLOG",
       "rights": "© 2025 Mayen Legacy. All rights reserved."
     }
   },
@@ -205,6 +206,50 @@
     "successLabel": "✦ RECEIVED ✦",
     "successTitle": "You're on the list!",
     "successMessage": "I'll let you know as soon as ESSENTIA is available."
+  },
+  "EssentiaBlog": {
+    "meta": {
+      "title": "ESSENTIA Blog — Faith, Purpose & Well-Being",
+      "description": "Articles on faith, purpose, soul healing and integral well-being by Nasheli Mayén."
+    },
+    "hero": {
+      "tagline": "SPIRIT · SOUL · BODY",
+      "title": "ESSENTIA BLOG",
+      "description": "Reflections on faith, purpose and the path toward a life in Divine Order."
+    },
+    "readMore": "READ MORE",
+    "backToBlog": "BACK TO BLOG",
+    "empty": {
+      "label": "✦ COMING SOON ✦",
+      "title": "Content is on its way",
+      "description": "Soon you'll find articles on faith, purpose and integral well-being here."
+    },
+    "footer": {
+      "backToEssentia": "← BACK TO ESSENTIA",
+      "rights": "© 2025 Mayen Legacy. All rights reserved."
+    }
+  },
+  "AlkalinationBlog": {
+    "meta": {
+      "title": "AlkaliNation USA Blog — Water Health Tips",
+      "description": "Tips and articles on the importance of quality water for your health and home."
+    },
+    "hero": {
+      "tagline": "HEALTHY WATER · HEALTHY LIFE",
+      "title": "ALKALINATION BLOG",
+      "description": "Health tips, water quality and well-being for your home and family."
+    },
+    "readMore": "READ MORE",
+    "backToBlog": "BACK TO BLOG",
+    "empty": {
+      "label": "💧 COMING SOON 💧",
+      "title": "Content is on its way",
+      "description": "Soon you'll find tips and articles on home water health here."
+    },
+    "footer": {
+      "backToAlkalination": "← BACK TO ALKALINATION",
+      "rights": "© 2025 Mayen Legacy. All rights reserved."
+    }
   },
   "Alkalination": {
     "meta": {
@@ -294,6 +339,7 @@
     },
     "footer": {
       "back": "← BACK TO HOME",
+      "blog": "💧 BLOG",
       "company": "A company operating under Nubia Allkaline Water",
       "rights": "© 2025 Mayen Legacy. All rights reserved."
     }

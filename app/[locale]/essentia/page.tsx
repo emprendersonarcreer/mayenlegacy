@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import Navbar from "../../components/Navbar";
 import WaitlistForm from "../../components/WaitlistForm";
+import { Link } from "../../../i18n/navigation";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Essentia.meta");
@@ -103,9 +104,14 @@ export default function Essentia() {
       {/* FOOTER */}
       <footer className="py-10 bg-[#FAF7F2] border-t border-[#EADCC6]">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <a href="/" className="text-[#4A90E2] text-sm tracking-wider hover:text-[#9A7B0A] transition-colors">
-            {t("footer.back")}
-          </a>
+          <div className="flex justify-center gap-8 mb-4">
+            <Link href="/" className="text-[#4A90E2] text-sm tracking-wider hover:text-[#9A7B0A] transition-colors">
+              {t("footer.back")}
+            </Link>
+            <Link href="/essentia/blog" className="text-[#9A7B0A] text-sm tracking-wider hover:text-[#4A90E2] transition-colors">
+              {t("footer.blog")}
+            </Link>
+          </div>
           <p className="font-serif text-[#4A90E2] tracking-widest mt-6 mb-2">NASHELI MAYÉN</p>
           <div className="flex justify-center gap-4 mt-3">
             <a href="https://www.instagram.com/nasheli_mayen_essentia" target="_blank" rel="noopener noreferrer"

@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Navbar from "../../components/Navbar";
+import { Link } from "../../../i18n/navigation";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Alkalination.meta");
@@ -255,9 +256,14 @@ export default function Alkalination() {
       {/* FOOTER */}
       <footer className="py-10 bg-white border-t border-[#E6F1FA]">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <a href="/" className="text-[#4A90E2] text-sm tracking-wider hover:text-[#7A3FD0] transition-colors">
-            {t("footer.back")}
-          </a>
+          <div className="flex justify-center gap-8 mb-2">
+            <Link href="/" className="text-[#4A90E2] text-sm tracking-wider hover:text-[#7A3FD0] transition-colors">
+              {t("footer.back")}
+            </Link>
+            <Link href="/alkalination/blog" className="text-[#4A90E2] text-sm tracking-wider hover:text-[#7A3FD0] transition-colors">
+              {t("footer.blog")}
+            </Link>
+          </div>
           <p className="font-serif text-[#4A90E2] tracking-widest mt-6 mb-1">ALKALINATION USA</p>
           <div className="flex justify-center gap-4 mt-3 mb-3">
             <a href="https://www.instagram.com/alkalinationusa" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#7A3FD0] transition-colors" aria-label="Instagram">
