@@ -195,7 +195,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             {/* WHATSAPP */}
             <a
-              href="https://wa.me/15622860707"
+              href="https://wa.me/15622860707?text=Hola%20Nasheli%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20tus%20proyectos"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-4 tracking-wider text-sm hover:bg-[#1da851] transition-colors"
