@@ -15,6 +15,7 @@ export default function Navbar() {
           <a href="/#sobre-mi" className="hover:text-[#9A7B0A] transition-colors">SOBRE MÍ</a>
           <a href="/#proyectos" className="hover:text-[#9A7B0A] transition-colors">PROYECTOS</a>
           <a href="/conferencista" className="hover:text-[#9A7B0A] transition-colors">CONFERENCISTA</a>
+          <a href="/#testimonios" className="hover:text-[#9A7B0A] transition-colors">TESTIMONIOS</a>
           <a href="/#contacto" className="hover:text-[#9A7B0A] transition-colors">CONTACTO</a>
         </div>
 
@@ -42,6 +43,7 @@ export default function Navbar() {
           <a href="/#sobre-mi" className="hover:text-[#9A7B0A] transition-colors py-2" onClick={() => setIsOpen(false)}>SOBRE MÍ</a>
           <a href="/#proyectos" className="hover:text-[#9A7B0A] transition-colors py-2" onClick={() => setIsOpen(false)}>PROYECTOS</a>
           <a href="/conferencista" className="hover:text-[#9A7B0A] transition-colors py-2" onClick={() => setIsOpen(false)}>CONFERENCISTA</a>
+          <a href="/#testimonios" className="hover:text-[#9A7B0A] transition-colors py-2" onClick={() => setIsOpen(false)}>TESTIMONIOS</a>
           <a href="/#contacto" className="hover:text-[#9A7B0A] transition-colors py-2" onClick={() => setIsOpen(false)}>CONTACTO</a>
         </div>
       )}
