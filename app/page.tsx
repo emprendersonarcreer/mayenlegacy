@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import TestimonialsSection from "./components/TestimonialsSection";
+import ContactForm from "./components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Nasheli Mayén | Conferencista · Autora · Fundadora",
@@ -195,42 +196,19 @@ export default function Home() {
 
       {/* CONTACTO */}
       <section id="contacto" className="py-24 bg-[#FAF7F2]">
-        <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-[#9A7B0A] tracking-[0.3em] text-sm mb-3">CONTACTO</p>
-          <h2 className="font-serif text-4xl text-[#2C4A7C] mb-6">
-            Hablemos
-          </h2>
-          <div className="w-12 h-[2px] bg-[#9A7B0A] mx-auto mb-8" />
-          <p className="text-gray-600 text-lg leading-relaxed mb-12">
-            ¿Sientes que es momento de comenzar tu camino de transformación?<br />
-            Estoy aquí para acompañarte.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            {/* WHATSAPP */}
-            <a
-              href="https://wa.me/15622860707?text=Hola%20Nasheli%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20tus%20proyectos"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-4 tracking-wider text-sm hover:bg-[#1da851] transition-colors"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
-              </svg>
-              ESCRÍBEME POR WHATSAPP
-            </a>
-
-            {/* EMAIL */}
-            <a
-              href="mailto:emprender.sonar.creer@gmail.com"
-              className="flex items-center justify-center gap-3 border border-[#4A90E2] text-[#4A90E2] px-8 py-4 tracking-wider text-sm hover:bg-[#E6F1FA] transition-colors"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
-              </svg>
-              ENVÍAME UN CORREO
-            </a>
+        <div className="max-w-2xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <p className="text-[#9A7B0A] tracking-[0.3em] text-sm mb-3">CONTACTO</p>
+            <h2 className="font-serif text-4xl text-[#2C4A7C] mb-4">
+              Hablemos
+            </h2>
+            <div className="w-12 h-[2px] bg-[#9A7B0A] mx-auto mb-6" />
+            <p className="text-gray-600 leading-relaxed">
+              ¿Sientes que es momento de comenzar tu camino de transformación?
+              Estoy aquí para acompañarte.
+            </p>
           </div>
+          <ContactForm />
         </div>
       </section>
 
