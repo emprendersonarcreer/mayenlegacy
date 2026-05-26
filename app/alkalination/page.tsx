@@ -147,7 +147,7 @@ export default function Alkalination() {
                 <p className="text-[#7A3FD0] text-xs tracking-widest">SISTEMA DE COCINA</p>
                 <h3 className="font-serif text-2xl text-[#2C4A7C]">Alcalino</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">Sistema de filtración alcalina bajo el fregadero. Agua pura, alcalina y deliciosa directo de tu grifo.</p>
-                <a href="https://wa.me/15622860707" target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/15622860707?text=Hola%2C%20me%20interesa%20una%20evaluaci%C3%B3n%20gratuita%20de%20agua" target="_blank" rel="noopener noreferrer"
                   className="mt-auto inline-block bg-[#4A90E2] text-white text-xs tracking-widest px-6 py-3 text-center hover:bg-[#2C4A7C] transition-colors">
                   QUIERO SABER MÁS
                 </a>
@@ -162,7 +162,7 @@ export default function Alkalination() {
                 <p className="text-[#7A3FD0] text-xs tracking-widest">ÓSMOSIS INVERSA</p>
                 <h3 className="font-serif text-2xl text-[#2C4A7C]">Puronics RO</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">Sistema de ósmosis inversa de alta calidad. Reduce hasta el 99% de impurezas presentes en el agua.</p>
-                <a href="https://wa.me/15622860707" target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/15622860707?text=Hola%2C%20me%20interesa%20una%20evaluaci%C3%B3n%20gratuita%20de%20agua" target="_blank" rel="noopener noreferrer"
                   className="mt-auto inline-block bg-[#4A90E2] text-white text-xs tracking-widest px-6 py-3 text-center hover:bg-[#2C4A7C] transition-colors">
                   QUIERO SABER MÁS
                 </a>
@@ -177,7 +177,7 @@ export default function Alkalination() {
                 <p className="text-[#7A3FD0] text-xs tracking-widest">TODA LA CASA</p>
                 <h3 className="font-serif text-2xl text-[#2C4A7C]">Puronics Casa</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">Protege toda tu casa — agua suavizada y filtrada en cada grifo, ducha y electrodoméstico.</p>
-                <a href="https://wa.me/15622860707" target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/15622860707?text=Hola%2C%20me%20interesa%20una%20evaluaci%C3%B3n%20gratuita%20de%20agua" target="_blank" rel="noopener noreferrer"
                   className="mt-auto inline-block bg-[#4A90E2] text-white text-xs tracking-widest px-6 py-3 text-center hover:bg-[#2C4A7C] transition-colors">
                   QUIERO SABER MÁS
                 </a>
@@ -234,7 +234,7 @@ export default function Alkalination() {
               </div>
             ))}
           </div>
-          <a href="https://wa.me/15622860707" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/15622860707?text=Hola%2C%20me%20interesa%20una%20evaluaci%C3%B3n%20gratuita%20de%20agua" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-[#25D366] text-white px-10 py-4 tracking-wider text-sm hover:bg-[#1da851] transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
               <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
@@ -294,7 +294,7 @@ export default function Alkalination() {
             <p className="text-gray-600 leading-relaxed">
               Como familia, entendemos la importancia de proteger tu hogar con soluciones reales, confiables y de calidad comprobada. No vendemos productos — compartimos una forma de vivir mejor.
             </p>
-            <a href="https://wa.me/15622860707" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/15622860707?text=Hola%2C%20me%20interesa%20una%20evaluaci%C3%B3n%20gratuita%20de%20agua" target="_blank" rel="noopener noreferrer"
               className="inline-block bg-[#7A3FD0] text-white px-8 py-3 tracking-wider text-sm w-fit hover:bg-[#5c2fa0] transition-colors">
               CONTÁCTANOS
             </a>
