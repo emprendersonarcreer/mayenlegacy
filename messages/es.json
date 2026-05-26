@@ -1,0 +1,301 @@
+{
+  "Navbar": {
+    "about": "SOBRE MÍ",
+    "projects": "PROYECTOS",
+    "speaker": "CONFERENCISTA",
+    "testimonials": "TESTIMONIOS",
+    "contact": "CONTACTO"
+  },
+  "Home": {
+    "hero": {
+      "tagline": "ESPÍRITU · ALMA · CUERPO",
+      "subtitle": "Conferencista · Autora · Fundadora",
+      "description": "Acompañando a mujeres a vivir desde su esencia, con propósito, fe y bienestar integral.",
+      "cta1": "CONOCE MIS PROYECTOS",
+      "cta2": "CONTACTO"
+    },
+    "about": {
+      "label": "SOBRE MÍ",
+      "title": "Mi propósito fue activado antes de nacer",
+      "p1": "Durante el tiempo de mi gestación, mis padres, jóvenes y confundidos, ya estaban en una clínica tomando una decisión sobre el embarazo de mi mamá, cuando algo más grande que ellos les dio paz de tener a su tercer hija.",
+      "p1highlight": "algo más grande que ellos les dio paz de tener a su tercer hija.",
+      "p2": "Ese instante cambió mi destino. Lo llamo mi primera batalla espiritual — entre la lógica humana y el diseño divino. Soy evidencia viva de que el propósito se activa antes de nacer. Hoy acompaño a mujeres a descubrir que todo comienza dentro de cada una — en la restauración del espíritu, la sanidad del alma y el cuidado intencional del cuerpo.",
+      "p3before": "Creo profundamente que la verdadera transformación ocurre cuando una mujer vuelve a alinearse con",
+      "p3highlight": "el diseño divino para el que fue creada.",
+      "p3after": "Esa convicción se convirtió en el corazón de mi propósito.",
+      "stat1number": "+20",
+      "stat1label": "AÑOS DE\nMINISTERIO",
+      "stat2label": "CONFERENCISTA\nAUTORA · FUNDADORA",
+      "stat3label": "VIDAS\nIMPACTADAS"
+    },
+    "projects": {
+      "label": "MIS PROYECTOS",
+      "title": "Un ecosistema de transformación",
+      "essentia": {
+        "tagline": "ESPÍRITU · ALMA · CUERPO",
+        "title": "ESSENTIA",
+        "description": "Guía práctica para ordenar tu espíritu, alma y cuerpo. Un camino de transformación interior en Orden Divino.",
+        "cta": "CONOCER MÁS"
+      },
+      "alkalination": {
+        "tagline": "AGUA SANA · VIDA SANA",
+        "title": "AlkaliNation USA",
+        "description": "Soluciones avanzadas de agua para proteger tu hogar, apoyar tu salud y elevar tu vida diaria.",
+        "cta": "CONOCER MÁS"
+      },
+      "speaker": {
+        "tagline": "FE · PROPÓSITO · LIDERAZGO",
+        "title": "Conferencista",
+        "description": "Mensajes que transforman desde adentro — para iglesias, retiros, conferencias y eventos de liderazgo.",
+        "cta": "CONOCER MÁS"
+      }
+    },
+    "quote": "La transformación verdadera comienza dentro.",
+    "contact": {
+      "label": "CONTACTO",
+      "title": "Hablemos",
+      "description": "¿Sientes que es momento de comenzar tu camino de transformación? Estoy aquí para acompañarte."
+    },
+    "footer": {
+      "tagline": "ESPÍRITU · ALMA · CUERPO",
+      "rights": "© 2025 Mayen Legacy. Todos los derechos reservados."
+    }
+  },
+  "Testimonials": {
+    "label": "TESTIMONIOS",
+    "title": "Lo que dicen quienes me conocen",
+    "readMore": "LEER TESTIMONIO COMPLETO",
+    "close": "Cerrar"
+  },
+  "ContactForm": {
+    "name": "NOMBRE",
+    "email": "CORREO ELECTRÓNICO",
+    "message": "MENSAJE",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "tu@correo.com",
+    "messagePlaceholder": "¿En qué puedo acompañarte?",
+    "submit": "ENVIAR MENSAJE",
+    "sending": "ENVIANDO...",
+    "error": "Hubo un error. Por favor intenta de nuevo.",
+    "successTitle": "¡Recibí tu mensaje!",
+    "successLabel": "✦ GRACIAS ✦",
+    "successMessage": "Me pondré en contacto contigo pronto."
+  },
+  "Speaker": {
+    "meta": {
+      "title": "Conferencista — Todo comienza dentro de ti",
+      "description": "Invita a Nasheli Mayén a tu iglesia, retiro o conferencia. Temas de fe, propósito, liderazgo femenino, sanidad del alma y bienestar integral."
+    },
+    "hero": {
+      "label": "NASHELI MAYÉN",
+      "title": "Conferencista",
+      "quote": "\"Todo comienza dentro de ti.\"",
+      "description": "Mensajes que transforman desde adentro — para mujeres listas para vivir desde su esencia, con propósito, fe y bienestar integral.",
+      "cta": "INVÍTAME A TU EVENTO"
+    },
+    "topics": {
+      "label": "LO QUE COMPARTO",
+      "title": "Temas que transforman",
+      "items": [
+        { "title": "Fe y Propósito", "desc": "Descubrir que el propósito se activa antes de nacer y que la fe es el motor que lo lleva a la acción." },
+        { "title": "Sanidad del Alma", "desc": "Sanar heridas de origen, romper ciclos generacionales y ordenar las emociones desde la verdad de Dios." },
+        { "title": "Liderazgo Femenino", "desc": "Despertar el liderazgo que Dios diseñó en cada mujer — con identidad, valentía y dirección divina." },
+        { "title": "Bienestar Integral", "desc": "Vivir en el Orden Divino: Espíritu, Alma y Cuerpo alineados para una vida plena y con propósito." },
+        { "title": "Familia y Matrimonio", "desc": "Construir un legado familiar sólido desde los fundamentos de la fe, el amor y el diseño divino." },
+        { "title": "Identidad en Cristo", "desc": "Conocer quién eres en Cristo como base para todo lo que haces — en el hogar, el ministerio y la vida." }
+      ]
+    },
+    "events": {
+      "label": "DÓNDE PUEDO SERVIR",
+      "title": "Tipos de eventos",
+      "items": ["Conferencias", "Retiros de Mujeres", "Iglesias", "Capacitaciones", "Liderazgo", "Empresas"]
+    },
+    "why": {
+      "label": "POR QUÉ ELEGIRME",
+      "title": "Lo que llevas a tu evento",
+      "items": [
+        { "title": "Más de 20 años de ministerio", "desc": "Una trayectoria sólida de servicio, discipulado y liderazgo que respalda cada mensaje." },
+        { "title": "Mensajes desde la experiencia real", "desc": "No hablo de teorías — hablo desde batallas ganadas, heridas sanadas y fe probada en el fuego." },
+        { "title": "Formadora de líderes", "desc": "Tengo un historial comprobado de mujeres que crecieron y hoy lideran a otras. La multiplicación es mi sello." },
+        { "title": "Espíritu · Alma · Cuerpo", "desc": "Mi enfoque es integral. No solo ministro espiritualmente — acompaño a la mujer completa hacia su transformación." }
+      ]
+    },
+    "testimonialLabel": "✦ VOCES QUE ME CONOCEN ✦",
+    "form": {
+      "label": "CONTÁCTAME",
+      "title": "Invítame a tu evento",
+      "description": "Cuéntame sobre tu evento y con gusto conversamos los detalles."
+    },
+    "footer": {
+      "back": "← VOLVER AL INICIO",
+      "rights": "© 2025 Mayen Legacy. Todos los derechos reservados."
+    }
+  },
+  "SpeakingForm": {
+    "name": "NOMBRE COMPLETO *",
+    "org": "ORGANIZACIÓN / IGLESIA *",
+    "city": "CIUDAD / ESTADO *",
+    "eventType": "TIPO DE EVENTO *",
+    "selectOption": "Selecciona una opción",
+    "date": "FECHA TENTATIVA",
+    "datePlaceholder": "Ej: Junio 2025, primer fin de semana de julio...",
+    "whatsapp": "WHATSAPP *",
+    "email": "CORREO ELECTRÓNICO *",
+    "details": "CUÉNTAME MÁS SOBRE TU EVENTO",
+    "detailsPlaceholder": "Comparte más detalles sobre tu evento, audiencia esperada, tema de interés...",
+    "namePlaceholder": "Tu nombre",
+    "orgPlaceholder": "Nombre de tu organización",
+    "cityPlaceholder": "Ciudad, Estado",
+    "submit": "ENVIAR INVITACIÓN",
+    "sending": "ENVIANDO...",
+    "error": "Hubo un error. Por favor intenta de nuevo.",
+    "successLabel": "✦ GRACIAS ✦",
+    "successTitle": "¡Recibí tu invitación!",
+    "successMessage": "Me pondré en contacto contigo pronto para conversar los detalles de tu evento."
+  },
+  "Essentia": {
+    "meta": {
+      "title": "ESSENTIA — Espíritu, Alma y Cuerpo en Orden Divino",
+      "description": "Una guía práctica para mujeres que desean ordenar su espíritu, sanar su alma y honrar su cuerpo — en el orden que Dios diseñó. Próximamente."
+    },
+    "hero": {
+      "tagline": "ESPÍRITU · ALMA · CUERPO",
+      "subtitle": "ESPÍRITU, ALMA Y CUERPO EN ORDEN DIVINO",
+      "badge": "PRÓXIMAMENTE",
+      "quote": "\"Vuelve a tu esencia, vive tu propósito.\"",
+      "description": "Una guía práctica para mujeres que desean ordenar su espíritu, sanar su alma y honrar su cuerpo — en el orden que Dios diseñó."
+    },
+    "pillars": {
+      "label": "EL MÉTODO",
+      "title": "El Orden Divino",
+      "items": [
+        { "number": "I", "title": "Espíritu", "desc": "Tu identidad, tu fe, tu dirección. Donde nace el propósito. Alinearte con Dios primero lo cambia todo." },
+        { "number": "II", "title": "Alma", "desc": "Tu voluntad, emociones e intelecto. Ordenar el alma es sanar tu historia para no repetirla." },
+        { "number": "III", "title": "Cuerpo", "desc": "El instrumento de tu propósito. Honrarlo es mayordomía y amor propio en acción." }
+      ]
+    },
+    "forWho": {
+      "label": "ESTE LIBRO ES PARA TI SI...",
+      "title": "¿Te identificas?",
+      "items": [
+        "Sientes que algo no está bien por dentro aunque todo parece bien por fuera",
+        "Quieres sanar heridas de origen y romper ciclos generacionales",
+        "Deseas vivir alineada con el propósito de Dios para tu vida",
+        "Buscas construir un legado real para tu familia",
+        "Quieres amar con un corazón sano y libre",
+        "Estás lista para una transformación verdadera — no una fórmula rápida"
+      ]
+    },
+    "quote": "\"La transformación verdadera ocurre cuando una mujer vuelve a alinearse con el diseño divino para el que fue creada.\"",
+    "waitlist": {
+      "label": "SÉ LA PRIMERA EN SABERLO",
+      "title": "ESSENTIA está en camino",
+      "description": "Déjame tu correo y serás la primera en saber cuándo el libro esté disponible. Sin spam — solo noticias que importan."
+    },
+    "footer": {
+      "back": "← VOLVER AL INICIO",
+      "rights": "© 2025 Mayen Legacy. Todos los derechos reservados."
+    }
+  },
+  "WaitlistForm": {
+    "placeholder": "tu@correo.com",
+    "submit": "UNIRME A LA LISTA",
+    "sending": "ENVIANDO...",
+    "error": "Hubo un error. Por favor intenta de nuevo.",
+    "successLabel": "✦ RECIBIDO ✦",
+    "successTitle": "¡Ya estás en la lista!",
+    "successMessage": "Te avisaré en cuanto ESSENTIA esté disponible."
+  },
+  "Alkalination": {
+    "meta": {
+      "title": "AlkaliNation USA — Agua Sana · Vida Sana",
+      "description": "Soluciones avanzadas de agua para proteger tu hogar, apoyar tu salud y elevar tu vida diaria. Evaluación gratuita disponible."
+    },
+    "hero": {
+      "tagline": "AGUA SANA · VIDA SANA",
+      "title": "AlkaliNation USA",
+      "subtitle": "Soluciones avanzadas de agua para tu hogar y tu salud",
+      "p1before": "El",
+      "p1highlight": "70% de tu cuerpo es agua.",
+      "p1after": "Lo que consumes diariamente influye en tu bienestar, energía y calidad de vida.",
+      "p2before": "Un sistema de purificación no es un lujo. Es una",
+      "p2highlight": "decisión consciente",
+      "p2after": "para cuidar tu hogar y tu familia.",
+      "cta": "EVALUACIÓN GRATUITA"
+    },
+    "alerts": {
+      "label": "PRESTA ATENCIÓN",
+      "title": "Señales de que el agua de tu hogar podría estar afectando tu familia",
+      "subtitle": "Muchas familias conviven con estos problemas sin saber que tienen solución.",
+      "items": [
+        "Sarro y manchas difíciles de limpiar",
+        "Olor o sabor a cloro en el agua",
+        "Piel reseca o irritada frecuentemente",
+        "Cabello seco y sin brillo",
+        "Gasto constante en garrafones de agua",
+        "Daños en electrodomésticos por agua dura"
+      ],
+      "callout": "Si te identificas con alguno de estos — podemos ayudarte. 👇"
+    },
+    "commitment": {
+      "label": "NUESTRO COMPROMISO",
+      "title": "Lo que hacemos por ti",
+      "items": [
+        { "title": "Agua Pura", "desc": "Ayudamos a reducir elementos no deseados como cloro, sedimentos y metales pesados para brindarte agua más limpia y confiable." },
+        { "title": "Protección 24/7", "desc": "Nuestros sistemas trabajan continuamente para proteger tu hogar y tu familia todo el tiempo." },
+        { "title": "Enfocados en Familia", "desc": "Porque el agua que usa tu hogar también forma parte del cuidado de quienes amas." }
+      ]
+    },
+    "products": {
+      "label": "NUESTROS SISTEMAS",
+      "title": "Soluciones para cada hogar",
+      "cta": "QUIERO SABER MÁS",
+      "items": [
+        { "tag": "SISTEMA DE COCINA", "title": "Alcalino", "desc": "Sistema de filtración alcalina bajo el fregadero. Agua pura, alcalina y deliciosa directo de tu grifo." },
+        { "tag": "ÓSMOSIS INVERSA", "title": "Puronics RO", "desc": "Sistema de ósmosis inversa de alta calidad. Reduce hasta el 99% de impurezas presentes en el agua." },
+        { "tag": "TODA LA CASA", "title": "Puronics Casa", "desc": "Protege toda tu casa — agua suavizada y filtrada en cada grifo, ducha y electrodoméstico." }
+      ]
+    },
+    "why": {
+      "label": "NUESTRA DIFERENCIA",
+      "title": "¿Por qué elegir AlkaliNation USA?",
+      "items": [
+        { "title": "Instalación Profesional", "desc": "Técnicos certificados que instalan correctamente desde el primer día." },
+        { "title": "Cobertura Nacional", "desc": "Servicio disponible en todo el país para proteger tu hogar sin importar dónde estés." },
+        { "title": "Sistemas Premium", "desc": "Trabajamos solo con marcas de calidad comprobada como Puronics y Alkalina." },
+        { "title": "Soporte Local", "desc": "Estamos contigo después de la instalación — mantenimiento y soporte real." },
+        { "title": "Educación al Cliente", "desc": "Te explicamos qué tiene tu agua y por qué cada solución es la correcta para ti." },
+        { "title": "Opciones de Financiamiento", "desc": "Planes accesibles para que la calidad del agua no sea un obstáculo." }
+      ]
+    },
+    "evaluation": {
+      "label": "SIN COSTO · SIN COMPROMISO",
+      "title": "Evaluación Gratuita",
+      "description": "En 4 pasos simples descubrimos qué necesita el agua de tu hogar y te mostramos la mejor solución.",
+      "steps": [
+        "Agenda tu evaluación gratuita",
+        "Analizamos el agua de tu hogar",
+        "Te mostramos las opciones ideales",
+        "Instalación profesional garantizada"
+      ],
+      "cta": "AGENDA TU EVALUACIÓN GRATUITA"
+    },
+    "testimonials": {
+      "label": "LO QUE DICEN NUESTROS CLIENTES",
+      "title": "Testimonios"
+    },
+    "team": {
+      "label": "NUESTRO EQUIPO",
+      "title": "Una familia que\ncuida tu familia",
+      "p1before": "German y Nasheli Mayén fundaron AlkaliNation USA con una convicción profunda:",
+      "p1highlight": "la salud comienza con lo que consumimos cada día.",
+      "p2": "Como familia, entendemos la importancia de proteger tu hogar con soluciones reales, confiables y de calidad comprobada. No vendemos productos — compartimos una forma de vivir mejor.",
+      "cta": "CONTÁCTANOS"
+    },
+    "footer": {
+      "back": "← VOLVER AL INICIO",
+      "company": "Una empresa operando bajo Nubia Allkaline Water",
+      "rights": "© 2025 Mayen Legacy. Todos los derechos reservados."
+    }
+  }
+}

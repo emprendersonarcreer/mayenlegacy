@@ -1,12 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function WaitlistForm() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
+  const t = useTranslations("WaitlistForm");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -16,9 +18,7 @@ export default function WaitlistForm() {
     try {
       const response = await fetch("https://formspree.io/f/mnjrggnb", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
       });
 
@@ -37,9 +37,9 @@ export default function WaitlistForm() {
   if (submitted) {
     return (
       <div className="text-center py-8">
-        <p className="text-[#D4AF37] tracking-[0.3em] text-sm mb-3">✦ GRACIAS ✦</p>
-        <p className="font-serif text-2xl text-[#2C4A7C] mb-4">¡Ya estás en la lista!</p>
-        <p className="text-gray-600">Te avisaremos en cuanto ESSENTIA esté disponible.</p>
+        <p className="text-[#9A7B0A] tracking-[0.3em] text-sm mb-3">{t("successLabel")}</p>
+        <p className="font-serif text-2xl text-[#2C4A7C] mb-4">{t("successTitle")}</p>
+        <p className="text-gray-600">{t("successMessage")}</p>
       </div>
     );
   }
@@ -50,23 +50,21 @@ export default function WaitlistForm() {
         <input
           type="email"
           required
-          placeholder="Tu correo electrónico"
+          placeholder={t("placeholder")}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="flex-1 px-5 py-3 border border-[#EADCC6] bg-white text-gray-700 text-sm focus:outline-none focus:border-[#D4AF37] transition-colors"
+          className="flex-1 px-5 py-3 border border-[#EADCC6] bg-white text-gray-700 text-sm focus:outline-none focus:border-[#9A7B0A] transition-colors"
         />
         <button
           type="submit"
           disabled={loading}
-          className="bg-[#D4AF37] text-white px-8 py-3 text-sm tracking-widest hover:bg-[#b8962e] transition-colors whitespace-nowrap disabled:opacity-60"
+          className="bg-[#2C4A7C] text-white px-8 py-3 text-sm tracking-widest hover:bg-[#4A90E2] transition-colors whitespace-nowrap disabled:opacity-60"
         >
-          {loading ? "ENVIANDO..." : "QUIERO SABER"}
+          {loading ? t("sending") : t("submit")}
         </button>
       </form>
       {error && (
-        <p className="text-red-500 text-sm mt-3 text-center">
-          Hubo un error. Por favor intenta de nuevo.
-        </p>
+        <p className="text-red-500 text-sm mt-3 text-center">{t("error")}</p>
       )}
     </div>
   );

@@ -1,0 +1,301 @@
+{
+  "Navbar": {
+    "about": "ABOUT ME",
+    "projects": "PROJECTS",
+    "speaker": "SPEAKER",
+    "testimonials": "TESTIMONIALS",
+    "contact": "CONTACT"
+  },
+  "Home": {
+    "hero": {
+      "tagline": "SPIRIT · SOUL · BODY",
+      "subtitle": "Speaker · Author · Founder",
+      "description": "Guiding women to live from their essence, with purpose, faith, and integral well-being.",
+      "cta1": "DISCOVER MY PROJECTS",
+      "cta2": "CONTACT"
+    },
+    "about": {
+      "label": "ABOUT ME",
+      "title": "My purpose was activated before I was born",
+      "p1": "During my mother's pregnancy, my parents — young and confused — were already at a clinic making a decision about the pregnancy, when something greater than them gave them peace to welcome their third daughter.",
+      "p1highlight": "something greater than them gave them peace to welcome their third daughter.",
+      "p2": "That moment changed my destiny. I call it my first spiritual battle — between human logic and divine design. I am living proof that purpose is activated before birth. Today I walk with women to discover that everything begins within — in the restoration of the spirit, the healing of the soul, and the intentional care of the body.",
+      "p3before": "I deeply believe that true transformation happens when a woman realigns herself with",
+      "p3highlight": "the divine design for which she was created.",
+      "p3after": "That conviction became the heart of my purpose.",
+      "stat1number": "+20",
+      "stat1label": "YEARS OF\nMINISTRY",
+      "stat2label": "SPEAKER\nAUTHOR · FOUNDER",
+      "stat3label": "LIVES\nIMPACTED"
+    },
+    "projects": {
+      "label": "MY PROJECTS",
+      "title": "An ecosystem of transformation",
+      "essentia": {
+        "tagline": "SPIRIT · SOUL · BODY",
+        "title": "ESSENTIA",
+        "description": "A practical guide to align your spirit, soul and body. A path of inner transformation in Divine Order.",
+        "cta": "LEARN MORE"
+      },
+      "alkalination": {
+        "tagline": "HEALTHY WATER · HEALTHY LIFE",
+        "title": "AlkaliNation USA",
+        "description": "Advanced water solutions to protect your home, support your health and elevate your daily life.",
+        "cta": "LEARN MORE"
+      },
+      "speaker": {
+        "tagline": "FAITH · PURPOSE · LEADERSHIP",
+        "title": "Speaker",
+        "description": "Messages that transform from within — for churches, retreats, conferences and leadership events.",
+        "cta": "LEARN MORE"
+      }
+    },
+    "quote": "True transformation begins within.",
+    "contact": {
+      "label": "CONTACT",
+      "title": "Let's Talk",
+      "description": "Do you feel it's time to begin your transformation journey? I'm here to walk with you."
+    },
+    "footer": {
+      "tagline": "SPIRIT · SOUL · BODY",
+      "rights": "© 2025 Mayen Legacy. All rights reserved."
+    }
+  },
+  "Testimonials": {
+    "label": "TESTIMONIALS",
+    "title": "What those who know me say",
+    "readMore": "READ FULL TESTIMONIAL",
+    "close": "Close"
+  },
+  "ContactForm": {
+    "name": "NAME",
+    "email": "EMAIL ADDRESS",
+    "message": "MESSAGE",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@email.com",
+    "messagePlaceholder": "How can I walk with you?",
+    "submit": "SEND MESSAGE",
+    "sending": "SENDING...",
+    "error": "An error occurred. Please try again.",
+    "successTitle": "Message received!",
+    "successLabel": "✦ THANK YOU ✦",
+    "successMessage": "I will get back to you soon."
+  },
+  "Speaker": {
+    "meta": {
+      "title": "Speaker — Everything begins within you",
+      "description": "Invite Nasheli Mayén to your church, retreat or conference. Topics on faith, purpose, women's leadership, soul healing and integral well-being."
+    },
+    "hero": {
+      "label": "NASHELI MAYÉN",
+      "title": "Speaker",
+      "quote": "\"Everything begins within you.\"",
+      "description": "Messages that transform from within — for women ready to live from their essence, with purpose, faith and integral well-being.",
+      "cta": "INVITE ME TO YOUR EVENT"
+    },
+    "topics": {
+      "label": "WHAT I SHARE",
+      "title": "Topics that transform",
+      "items": [
+        { "title": "Faith & Purpose", "desc": "Discovering that purpose is activated before birth and that faith is the engine that drives it into action." },
+        { "title": "Soul Healing", "desc": "Healing wounds at the root, breaking generational cycles and ordering emotions from the truth of God." },
+        { "title": "Women's Leadership", "desc": "Awakening the leadership God designed in every woman — with identity, courage and divine direction." },
+        { "title": "Integral Well-Being", "desc": "Living in Divine Order: Spirit, Soul and Body aligned for a full and purposeful life." },
+        { "title": "Family & Marriage", "desc": "Building a solid family legacy from the foundations of faith, love and divine design." },
+        { "title": "Identity in Christ", "desc": "Knowing who you are in Christ as the foundation for everything you do — at home, in ministry and in life." }
+      ]
+    },
+    "events": {
+      "label": "WHERE I CAN SERVE",
+      "title": "Event Types",
+      "items": ["Conferences", "Women's Retreats", "Churches", "Training", "Leadership", "Corporate"]
+    },
+    "why": {
+      "label": "WHY CHOOSE ME",
+      "title": "What you get at your event",
+      "items": [
+        { "title": "Over 20 years of ministry", "desc": "A solid track record of service, discipleship and leadership that backs every message." },
+        { "title": "Messages from real experience", "desc": "I don't speak from theory — I speak from battles won, wounds healed and faith proven in fire." },
+        { "title": "Leader developer", "desc": "I have a proven history of women who grew and now lead others. Multiplication is my mark." },
+        { "title": "Spirit · Soul · Body", "desc": "My approach is integral. I don't only minister spiritually — I accompany the whole woman toward transformation." }
+      ]
+    },
+    "testimonialLabel": "✦ VOICES THAT KNOW ME ✦",
+    "form": {
+      "label": "CONTACT ME",
+      "title": "Invite Me to Your Event",
+      "description": "Tell me about your event and we'll gladly discuss the details."
+    },
+    "footer": {
+      "back": "← BACK TO HOME",
+      "rights": "© 2025 Mayen Legacy. All rights reserved."
+    }
+  },
+  "SpeakingForm": {
+    "name": "FULL NAME *",
+    "org": "ORGANIZATION / CHURCH *",
+    "city": "CITY / STATE *",
+    "eventType": "EVENT TYPE *",
+    "selectOption": "Select an option",
+    "date": "TENTATIVE DATE",
+    "datePlaceholder": "Ex: June 2025, first weekend of July...",
+    "whatsapp": "WHATSAPP *",
+    "email": "EMAIL ADDRESS *",
+    "details": "TELL ME MORE ABOUT YOUR EVENT",
+    "detailsPlaceholder": "Share more details about your event, expected audience, topic of interest...",
+    "namePlaceholder": "Your name",
+    "orgPlaceholder": "Your organization name",
+    "cityPlaceholder": "City, State",
+    "submit": "SEND INVITATION",
+    "sending": "SENDING...",
+    "error": "An error occurred. Please try again.",
+    "successLabel": "✦ THANK YOU ✦",
+    "successTitle": "Invitation received!",
+    "successMessage": "I will get back to you soon to discuss the details of your event."
+  },
+  "Essentia": {
+    "meta": {
+      "title": "ESSENTIA — Spirit, Soul and Body in Divine Order",
+      "description": "A practical guide for women who want to align their spirit, heal their soul and honor their body — in the order God designed. Coming soon."
+    },
+    "hero": {
+      "tagline": "SPIRIT · SOUL · BODY",
+      "subtitle": "SPIRIT, SOUL AND BODY IN DIVINE ORDER",
+      "badge": "COMING SOON",
+      "quote": "\"Return to your essence, live your purpose.\"",
+      "description": "A practical guide for women who want to align their spirit, heal their soul and honor their body — in the order God designed."
+    },
+    "pillars": {
+      "label": "THE METHOD",
+      "title": "The Divine Order",
+      "items": [
+        { "number": "I", "title": "Spirit", "desc": "Your identity, your faith, your direction. Where purpose is born. Aligning with God first changes everything." },
+        { "number": "II", "title": "Soul", "desc": "Your will, emotions and intellect. Ordering the soul means healing your story so it doesn't repeat." },
+        { "number": "III", "title": "Body", "desc": "The instrument of your purpose. Honoring it is stewardship and self-love in action." }
+      ]
+    },
+    "forWho": {
+      "label": "THIS BOOK IS FOR YOU IF...",
+      "title": "Do you relate?",
+      "items": [
+        "You feel something is off inside even though everything looks fine on the outside",
+        "You want to heal wounds at the root and break generational cycles",
+        "You desire to live aligned with God's purpose for your life",
+        "You're looking to build a real legacy for your family",
+        "You want to love with a healthy and free heart",
+        "You're ready for true transformation — not a quick fix"
+      ]
+    },
+    "quote": "\"True transformation happens when a woman realigns herself with the divine design for which she was created.\"",
+    "waitlist": {
+      "label": "BE THE FIRST TO KNOW",
+      "title": "ESSENTIA is on its way",
+      "description": "Leave your email and you'll be the first to know when the book is available. No spam — only news that matters."
+    },
+    "footer": {
+      "back": "← BACK TO HOME",
+      "rights": "© 2025 Mayen Legacy. All rights reserved."
+    }
+  },
+  "WaitlistForm": {
+    "placeholder": "you@email.com",
+    "submit": "JOIN THE WAITLIST",
+    "sending": "SENDING...",
+    "error": "An error occurred. Please try again.",
+    "successLabel": "✦ RECEIVED ✦",
+    "successTitle": "You're on the list!",
+    "successMessage": "I'll let you know as soon as ESSENTIA is available."
+  },
+  "Alkalination": {
+    "meta": {
+      "title": "AlkaliNation USA — Healthy Water · Healthy Life",
+      "description": "Advanced water solutions to protect your home, support your health and elevate your daily life. Free evaluation available."
+    },
+    "hero": {
+      "tagline": "HEALTHY WATER · HEALTHY LIFE",
+      "title": "AlkaliNation USA",
+      "subtitle": "Advanced water solutions for your home and health",
+      "p1before": "",
+      "p1highlight": "70% of your body is water.",
+      "p1after": "What you consume daily affects your well-being, energy and quality of life.",
+      "p2before": "A purification system is not a luxury. It's a",
+      "p2highlight": "conscious decision",
+      "p2after": "to protect your home and family.",
+      "cta": "FREE EVALUATION"
+    },
+    "alerts": {
+      "label": "PAY ATTENTION",
+      "title": "Signs that your home's water could be affecting your family",
+      "subtitle": "Many families live with these problems without knowing there's a solution.",
+      "items": [
+        "Scale and hard-to-clean stains",
+        "Chlorine smell or taste in water",
+        "Frequently dry or irritated skin",
+        "Dry and dull hair",
+        "Constant spending on bottled water",
+        "Appliance damage from hard water"
+      ],
+      "callout": "If you identify with any of these — we can help. 👇"
+    },
+    "commitment": {
+      "label": "OUR COMMITMENT",
+      "title": "What we do for you",
+      "items": [
+        { "title": "Pure Water", "desc": "We help reduce unwanted elements like chlorine, sediment and heavy metals to give you cleaner, more reliable water." },
+        { "title": "24/7 Protection", "desc": "Our systems work continuously to protect your home and family at all times." },
+        { "title": "Family-Focused", "desc": "Because the water your home uses is also part of caring for those you love." }
+      ]
+    },
+    "products": {
+      "label": "OUR SYSTEMS",
+      "title": "Solutions for every home",
+      "cta": "LEARN MORE",
+      "items": [
+        { "tag": "KITCHEN SYSTEM", "title": "Alkaline", "desc": "Under-sink alkaline filtration system. Pure, alkaline and delicious water straight from your tap." },
+        { "tag": "REVERSE OSMOSIS", "title": "Puronics RO", "desc": "High-quality reverse osmosis system. Reduces up to 99% of impurities in your water." },
+        { "tag": "WHOLE HOUSE", "title": "Puronics Home", "desc": "Protect your entire home — softened and filtered water at every tap, shower and appliance." }
+      ]
+    },
+    "why": {
+      "label": "OUR DIFFERENCE",
+      "title": "Why choose AlkaliNation USA?",
+      "items": [
+        { "title": "Professional Installation", "desc": "Certified technicians who install correctly from day one." },
+        { "title": "Nationwide Coverage", "desc": "Service available across the country to protect your home wherever you are." },
+        { "title": "Premium Systems", "desc": "We work only with proven quality brands like Puronics and Alkalina." },
+        { "title": "Local Support", "desc": "We're with you after installation — real maintenance and support." },
+        { "title": "Customer Education", "desc": "We explain what's in your water and why each solution is right for you." },
+        { "title": "Financing Options", "desc": "Accessible plans so water quality is never an obstacle." }
+      ]
+    },
+    "evaluation": {
+      "label": "NO COST · NO COMMITMENT",
+      "title": "Free Evaluation",
+      "description": "In 4 simple steps we discover what your home's water needs and show you the best solution.",
+      "steps": [
+        "Schedule your free evaluation",
+        "We analyze your home's water",
+        "We show you the ideal options",
+        "Professional installation guaranteed"
+      ],
+      "cta": "SCHEDULE YOUR FREE EVALUATION"
+    },
+    "testimonials": {
+      "label": "WHAT OUR CUSTOMERS SAY",
+      "title": "Testimonials"
+    },
+    "team": {
+      "label": "OUR TEAM",
+      "title": "A family that\ncares for your family",
+      "p1before": "German and Nasheli Mayén founded AlkaliNation USA with a deep conviction:",
+      "p1highlight": "health begins with what we consume every day.",
+      "p2": "As a family, we understand the importance of protecting your home with real, reliable and proven quality solutions. We don't sell products — we share a way to live better.",
+      "cta": "CONTACT US"
+    },
+    "footer": {
+      "back": "← BACK TO HOME",
+      "company": "A company operating under Nubia Allkaline Water",
+      "rights": "© 2025 Mayen Legacy. All rights reserved."
+    }
+  }
+}
