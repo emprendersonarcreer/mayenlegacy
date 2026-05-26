@@ -3,21 +3,21 @@ import WaitlistForm from "../components/WaitlistForm";
 
 export default function Essentia() {
   return (
-    <main className="min-h-screen bg-[#FAF7F2]">
+    <main className="min-h-screen bg-[#FAF7F2] overflow-x-hidden">
       <Navbar />
 
       {/* HERO */}
       <section className="pt-40 pb-24 px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-[#D4AF37] tracking-[0.4em] text-xs mb-6">ESPÍRITU · ALMA · CUERPO</p>
+          <p className="text-[#9A7B0A] tracking-[0.4em] text-xs mb-6">ESPÍRITU · ALMA · CUERPO</p>
 
           {/* Título decorativo */}
           <div className="relative inline-block mb-8">
-            <div className="w-16 h-[1px] bg-[#D4AF37] mx-auto mb-6" />
-            <h1 className="font-serif text-7xl md:text-9xl text-[#2C4A7C] tracking-widest leading-none">
+            <div className="w-16 h-[1px] bg-[#9A7B0A] mx-auto mb-6" />
+            <h1 className="font-serif text-5xl sm:text-7xl md:text-9xl text-[#2C4A7C] tracking-widest leading-none">
               ESSENTIA
             </h1>
-            <div className="w-16 h-[1px] bg-[#D4AF37] mx-auto mt-6" />
+            <div className="w-16 h-[1px] bg-[#9A7B0A] mx-auto mt-6" />
           </div>
 
           <p className="text-gray-500 text-sm tracking-[0.3em] mb-6">
@@ -42,14 +42,14 @@ export default function Essentia() {
       {/* LOS 3 PILARES */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-6">
-          <p className="text-[#D4AF37] tracking-[0.3em] text-xs text-center mb-3">EL MÉTODO</p>
+          <p className="text-[#9A7B0A] tracking-[0.3em] text-xs text-center mb-3">EL MÉTODO</p>
           <h2 className="font-serif text-3xl text-[#2C4A7C] text-center mb-16">
             El Orden Divino
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <div className="flex flex-col items-center text-center gap-4 p-8 border-t-2 border-[#D4AF37]">
-              <p className="font-serif text-4xl text-[#D4AF37]">I</p>
+              <p className="font-serif text-4xl text-[#9A7B0A]">I</p>
               <h3 className="font-serif text-2xl text-[#2C4A7C]">Espíritu</h3>
               <p className="text-gray-500 text-sm leading-relaxed">
                 Tu identidad, tu fe, tu dirección. Donde nace el propósito.
@@ -67,7 +67,7 @@ export default function Essentia() {
             </div>
 
             <div className="flex flex-col items-center text-center gap-4 p-8 border-t-2 border-[#D4AF37]">
-              <p className="font-serif text-4xl text-[#D4AF37]">III</p>
+              <p className="font-serif text-4xl text-[#9A7B0A]">III</p>
               <h3 className="font-serif text-2xl text-[#2C4A7C]">Cuerpo</h3>
               <p className="text-gray-500 text-sm leading-relaxed">
                 El instrumento de tu propósito. Honrarlo es mayordomía
@@ -82,7 +82,7 @@ export default function Essentia() {
       {/* PARA QUIÉN ES */}
       <section className="py-20 bg-[#FAF7F2]">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-[#D4AF37] tracking-[0.3em] text-xs mb-3">ESTE LIBRO ES PARA TI SI...</p>
+          <p className="text-[#9A7B0A] tracking-[0.3em] text-xs mb-3">ESTE LIBRO ES PARA TI SI...</p>
           <h2 className="font-serif text-3xl text-[#2C4A7C] mb-12">
             ¿Te identificas?
           </h2>
@@ -96,7 +96,7 @@ export default function Essentia() {
               "Estás lista para una transformación verdadera — no una fórmula rápida",
             ].map((item, i) => (
               <div key={i} className="flex gap-3 items-start p-4 bg-white border-l-2 border-[#D4AF37]">
-                <span className="text-[#D4AF37] mt-0.5">✦</span>
+                <span className="text-[#9A7B0A] mt-0.5">✦</span>
                 <p className="text-gray-600 text-sm leading-relaxed">{item}</p>
               </div>
             ))}
@@ -111,14 +111,14 @@ export default function Essentia() {
             "La transformación verdadera ocurre cuando una mujer vuelve a alinearse
             con el diseño divino para el que fue creada."
           </p>
-          <p className="text-[#D4AF37] tracking-widest text-sm mt-6">— NASHELI MAYÉN</p>
+          <p className="text-[#9A7B0A] tracking-widest text-sm mt-6">— NASHELI MAYÉN</p>
         </div>
       </section>
 
       {/* LISTA DE ESPERA */}
       <section className="py-24 bg-[#FAF7F2]">
         <div className="max-w-2xl mx-auto px-6 text-center">
-          <p className="text-[#D4AF37] tracking-[0.3em] text-xs mb-3">SÉ LA PRIMERA EN SABERLO</p>
+          <p className="text-[#9A7B0A] tracking-[0.3em] text-xs mb-3">SÉ LA PRIMERA EN SABERLO</p>
           <h2 className="font-serif text-3xl text-[#2C4A7C] mb-4">
             ESSENTIA está en camino
           </h2>
@@ -133,7 +133,7 @@ export default function Essentia() {
       {/* FOOTER */}
       <footer className="py-10 bg-[#FAF7F2] border-t border-[#EADCC6]">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <a href="/" className="text-[#4A90E2] text-sm tracking-wider hover:text-[#D4AF37] transition-colors">
+          <a href="/" className="text-[#4A90E2] text-sm tracking-wider hover:text-[#9A7B0A] transition-colors">
             ← VOLVER AL INICIO
           </a>
           <p className="font-serif text-[#4A90E2] tracking-widest mt-6 mb-2">NASHELI MAYÉN</p>
@@ -142,7 +142,7 @@ export default function Essentia() {
               href="https://www.instagram.com/nasheli_mayen_essentia"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-[#D4AF37] transition-colors"
+              className="text-gray-400 hover:text-[#9A7B0A] transition-colors"
               aria-label="Instagram"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
