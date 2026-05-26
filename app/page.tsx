@@ -1,6 +1,18 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import TestimonialsSection from "./components/TestimonialsSection";
+
+export const metadata: Metadata = {
+  title: "Nasheli Mayén | Conferencista · Autora · Fundadora",
+  description: "Acompañando a mujeres a vivir desde su esencia, con propósito, fe y bienestar integral. Espíritu · Alma · Cuerpo.",
+  openGraph: {
+    title: "Nasheli Mayén | Conferencista · Autora · Fundadora",
+    description: "Acompañando a mujeres a vivir desde su esencia, con propósito, fe y bienestar integral.",
+    url: "https://mayenlegacy.com",
+    images: [{ url: "/nasheli-azul2.png", width: 800, height: 1000, alt: "Nasheli Mayén" }],
+  },
+};
 
 export default function Home() {
   return (

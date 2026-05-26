@@ -1,5 +1,17 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
+
+export const metadata: Metadata = {
+  title: "AlkaliNation USA — Agua Sana · Vida Sana",
+  description: "Soluciones avanzadas de agua para proteger tu hogar, apoyar tu salud y elevar tu vida diaria. Evaluación gratuita disponible.",
+  openGraph: {
+    title: "AlkaliNation USA | Agua Sana · Vida Sana",
+    description: "Soluciones avanzadas de agua para proteger tu hogar, apoyar tu salud y elevar tu vida diaria.",
+    url: "https://mayenlegacy.com/alkalination",
+    images: [{ url: "/alkalination-hero.jpg", width: 1200, height: 800, alt: "AlkaliNation USA" }],
+  },
+};
 
 export default function Alkalination() {
   return (
