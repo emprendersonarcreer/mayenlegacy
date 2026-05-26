@@ -1,5 +1,17 @@
+import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
 import WaitlistForm from "../components/WaitlistForm";
+
+export const metadata: Metadata = {
+  title: "ESSENTIA — Espíritu, Alma y Cuerpo en Orden Divino",
+  description: "Una guía práctica para mujeres que desean ordenar su espíritu, sanar su alma y honrar su cuerpo — en el orden que Dios diseñó. Próximamente.",
+  openGraph: {
+    title: "ESSENTIA | Nasheli Mayén",
+    description: "Una guía práctica para mujeres que desean ordenar su espíritu, sanar su alma y honrar su cuerpo — en el orden que Dios diseñó.",
+    url: "https://mayenlegacy.com/essentia",
+    images: [{ url: "/nasheli-azul.png", width: 800, height: 1000, alt: "ESSENTIA — Nasheli Mayén" }],
+  },
+};
 
 export default function Essentia() {
   return (
