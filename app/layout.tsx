@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   },
   description: "Acompañando a mujeres a vivir desde su esencia, con propósito, fe y bienestar integral. Espíritu · Alma · Cuerpo.",
   metadataBase: new URL("https://mayenlegacy.com"),
+  verification: {
+    google: "_EELgTgFE7VY1xRD11lH0RaI5RVvUuD5VmCqwhE-iZs",
+  },
   openGraph: {
     siteName: "Mayen Legacy",
     locale: "es_US",
