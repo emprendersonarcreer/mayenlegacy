@@ -132,7 +132,7 @@ export default function Home() {
           <h2 className="font-serif text-4xl text-[#2C4A7C] text-center mb-16">
             Un ecosistema de transformación
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             {/* ESSENTIA */}
             <div className="bg-[#FAF7F2] p-10 flex flex-col gap-4 border-t-4 border-[#9A7B0A]">
@@ -158,6 +158,20 @@ export default function Home() {
               </p>
               <a href="/alkalination"
                 className="inline-block bg-[#4A90E2] text-white text-xs tracking-widest px-6 py-2 w-fit hover:bg-[#2C4A7C] transition-colors">
+                CONOCER MÁS
+              </a>
+            </div>
+
+            {/* CONFERENCISTA */}
+            <div className="bg-[#FAF7F2] p-10 flex flex-col gap-4 border-t-4 border-[#2C4A7C]">
+              <p className="text-[#2C4A7C] tracking-[0.3em] text-xs">FE · PROPÓSITO · LIDERAZGO</p>
+              <h3 className="font-serif text-3xl text-[#2C4A7C]">Conferencista</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Mensajes que transforman desde adentro — para iglesias,
+                retiros, conferencias y eventos de liderazgo.
+              </p>
+              <a href="/conferencista"
+                className="inline-block bg-[#2C4A7C] text-white text-xs tracking-widest px-6 py-2 w-fit hover:bg-[#4A90E2] transition-colors">
                 CONOCER MÁS
               </a>
             </div>
