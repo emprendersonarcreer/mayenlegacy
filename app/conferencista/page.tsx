@@ -121,20 +121,18 @@ export default function Conferencista() {
           </h2>
           <div className="w-12 h-[2px] bg-[#9A7B0A] mx-auto mb-16" />
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
             {[
-              { icon: "⛪", label: "Iglesias" },
-              { icon: "🏕️", label: "Retiros de Mujeres" },
-              { icon: "🎤", label: "Conferencias" },
-              { icon: "👥", label: "Grupos Pequeños" },
-              { icon: "🌱", label: "Grupos de Discipulado" },
-              { icon: "👨‍👩‍👧", label: "Eventos Familiares" },
-              { icon: "🎓", label: "Formación de Líderes" },
-              { icon: "💼", label: "Eventos Empresariales" },
-            ].map((item, i) => (
-              <div key={i} className="bg-white p-6 flex flex-col items-center gap-3">
-                <span className="text-3xl">{item.icon}</span>
-                <p className="text-[#2C4A7C] text-sm tracking-wide font-medium">{item.label}</p>
+              "Conferencias",
+              "Retiros de Mujeres",
+              "Iglesias",
+              "Capacitaciones",
+              "Liderazgo",
+              "Empresas",
+            ].map((label, i) => (
+              <div key={i} className="bg-white p-8 flex flex-col items-center gap-4 border-b-2 border-[#9A7B0A]">
+                <span className="text-[#9A7B0A] text-3xl leading-none">✦</span>
+                <p className="text-[#2C4A7C] text-sm tracking-widest font-medium uppercase">{label}</p>
               </div>
             ))}
           </div>
