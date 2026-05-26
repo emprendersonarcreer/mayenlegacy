@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import TestimonialsSection from "./components/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -162,6 +163,9 @@ export default function Home() {
           <div className="w-16 h-[1px] bg-[#9A7B0A] mx-auto mt-8" />
         </div>
       </section>
+
+      {/* TESTIMONIOS */}
+      <TestimonialsSection />
 
       {/* CONTACTO */}
       <section id="contacto" className="py-24 bg-[#FAF7F2]">
