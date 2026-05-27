@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import Navbar from "../../components/Navbar";
 import WaitlistForm from "../../components/WaitlistForm";
+import LatestBlogPreview from "../../components/LatestBlogPreview";
 import { Link } from "../../../i18n/navigation";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -100,6 +101,8 @@ export default function Essentia() {
           <WaitlistForm />
         </div>
       </section>
+
+      <LatestBlogPreview brand="essentia" />
 
       {/* FOOTER */}
       <footer className="py-10 bg-[#FAF7F2] border-t border-[#EADCC6]">

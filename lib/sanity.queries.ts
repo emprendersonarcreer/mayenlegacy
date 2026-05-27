@@ -31,6 +31,14 @@ export const postBySlugQuery = groq`
   }
 `;
 
+// Latest N posts for a brand (for homepage previews)
+export const latestPostsByBrandQuery = groq`
+  *[_type == "blogPost" && brand == $brand && language == $language && defined(slug.current)]
+  | order(publishedAt desc) [0..2] {
+    ${postCardFields}
+  }
+`;
+
 // All slugs for a brand (for generateStaticParams)
 export const slugsByBrandQuery = groq`
   *[_type == "blogPost" && brand == $brand && defined(slug.current)] {

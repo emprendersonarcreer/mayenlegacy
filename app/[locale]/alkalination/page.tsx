@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Navbar from "../../components/Navbar";
+import LatestBlogPreview from "../../components/LatestBlogPreview";
 import { Link } from "../../../i18n/navigation";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -252,6 +253,8 @@ export default function Alkalination() {
           <p className="text-[#B7D7F2] tracking-widest text-sm mt-6">ALKALINATION USA</p>
         </div>
       </section>
+
+      <LatestBlogPreview brand="alkalination" />
 
       {/* FOOTER */}
       <footer className="py-10 bg-white border-t border-[#E6F1FA]">
