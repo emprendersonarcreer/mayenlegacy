@@ -14,6 +14,14 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Redirect non-www → www (fixes alkalinationusa.com redirect and direct visits)
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "mayenlegacy.com" }],
+        destination: "https://www.mayenlegacy.com/:path*",
+        permanent: true,
+      },
+      // Studio redirects
       {
         source: "/studio",
         destination: "https://pf010nyp.sanity.studio",
